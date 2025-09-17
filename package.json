@@ -1,6 +1,6 @@
 {
-  "name": "food-del-backend",
-  "version": "1.0.0",
+  "name": "icms-backend",
+  "version": "5.1.0",
   "type": "module",
   "main": "server.js",
   "scripts": {
