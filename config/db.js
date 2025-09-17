@@ -2,7 +2,7 @@ import mysql from 'mysql2/promise';
 //import 'dotenv/config';
 
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || 'localhost',
+  host: process.env.DB_HOST || '103.127.31.126',
   user: process.env.DB_USER || 'inetsmsc_testusr',
   password: process.env.DB_PASSWORD || 'iNet@1011',
   database: process.env.DB_NAME || 'inetsmsc_icms_5_1',
